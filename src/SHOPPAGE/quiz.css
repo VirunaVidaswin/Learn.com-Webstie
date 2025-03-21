@@ -1,0 +1,160 @@
+#mySidenav a {
+    position: fixed;
+    left: -80px;
+    transition: 0.5s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+#mySidenav a:hover::after {
+    content: "Try the quiz to win some amazing discounts!";
+    position: absolute;
+    left: 140%;
+    top: 55%;
+    transform: translateY(-50%);
+    background-color: pink;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 1;
+    white-space: nowrap;
+}#about {
+    top: 480px;
+    background-color: #fb046c;
+    font-weight: bolder;
+    padding: 15px;
+    display: inline-block;
+}
+.bx-party {
+    color: #fb046c;
+    font-size: xx-large;
+    position: fixed;
+    top: 68%;
+    margin-left: 55px;
+    transition: margin-left 0.3s ease-in-out;
+    z-index: 9999;
+}
+
+#about:hover + .bx-party {
+    margin-left: 150px;
+}
+.sidenav-arrow {
+    position: fixed;
+    top: 47%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #fb046c;
+}
+#quizLinkContainer {
+    position: relative;
+    z-index: 9999; /* Ensure it's above other content */
+}
+.quizbg{
+    position: absolute;
+    background-image: url("quizbg.jpg");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 600px;
+    top: 0;
+    left: 0;
+
+}
+.grid-item0 {
+    border: 1px solid white;
+    padding: 20px;
+    font-size: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background-color: #FB046C;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+
+}
+#button2{
+    margin-top: 350px;
+    color: #Fb046c;
+    background-color: white;
+    font-weight: 900;
+    position: relative;
+    top: 27px;
+}
+#button2:hover{
+    background-color: lightgrey;
+}
+button:hover {
+    background-color: #d40f5b;
+}
+.popup-container {
+    position: relative;
+    height: 600px;
+    width: 1000px;
+    left: 420px;
+    top: 70px;
+}
+.popup-container1 {
+    position: relative;
+    height: 600px;
+    width: 1000px;
+    left: 10px;
+    top: 10px;
+}
+.popup-container2 {
+    position: relative;
+    height: 600px;
+    width: 1000px;
+    left: 10px;
+    top: 10px;
+}
+.container123 {
+    max-width: 450px;
+    height: 400px;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    font-size: medium;
+    text-align: left;
+    position: relative;
+}
+.container1234 {
+    max-width: 450px;
+    height: 400px;
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    font-size: medium;
+    position: relative;
+}
+h1{
+    text-align: center;
+}
+.bx.bx-gift.bx-tada {
+    color: black;
+}

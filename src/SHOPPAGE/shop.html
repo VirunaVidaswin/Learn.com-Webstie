@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" type="text/css" href="aboutus.css" />
+    <link rel="icon" href="learn.png" />
+
+    <!-- External CSS files -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="stylesheet" type="text/css" href="shop.css" />
+    <link rel="stylesheet" type="text/css" href="cart.css" />
+    <link rel="stylesheet" type="text/css" href="quiz.css" />
+
+
+  </head>
+
+  <body>
+
+    <div class="success">
+      <h1>Order Summary</h1>
+      <p>
+      </p>
+      <button class="closebtn" onclick="successclose()" id="windowclose">&times;</button>
+    </div>
+  
+    <!-- Scroll buttons -->
+    <button
+      onclick="topFunction()"
+      id="topBtn"
+      title="Go to top"
+      style="background-color: transparent"
+    >
+      <i
+        class="bx bx-chevrons-up"
+        style="font-size: xx-large; color: #fb046c"
+      ></i>
+    </button>
+    <button
+      onclick="bottomFunction()"
+      id="bottomBtn"
+      title="Go to bottom"
+      style="background-color: transparent"
+    >
+      <i
+        class="bx bx-chevrons-down"
+        style="font-size: xx-large; color: #fb046c"
+      ></i>
+    </button>
+    <section style="margin-bottom: 7%;">
+      <!-- Top section -->
+      <div id="top">
+        <div class="topbgindex">
+          <div class="black">
+            <!-- Logo and navigation -->
+            <div class="logo"></div>
+            <div class="nav">
+              <ul>
+                <li><a href="../MAINPAGE/Mainpage.html"><i class='bx bx-home'></i>Home</a></li>
+                <li style="font-size: large"><b><a href="../SHOPPAGE/shop.html"><i class='bx bx-shopping-bag'></i>Shop</a></b></li>
+                <li><a href="../GALLERYPAGE/Gallery.html"><i class='bx bx-photo-album'></i>Gallery</a></li>
+                <li><a href="../LISTINGPAGE/listingpage.html"><i class='bx bx-message-rounded-dots'></i>Reviews</a></li>
+                <li><a href="../ABOUTUSPAGE/about.html"><i class='bx bx-face'></i>About</a></li>
+                <li ><a href="../CONTACTPAGE/Contact.html"><i class='bx bx-envelope'></i>Contact</a></li>
+                <li style="border: 2px solid #fb046c;background-color: #fb046c;border-radius: 12px;padding: 5px;"><a href="../MAINPAGE/Mainpage.html"><i class='bx bx-search' ></i> Find a language</a></li>
+                <li><a href="../SIGNINPAGE/SignInForm.html"><i class='bx bx-user-circle' style="color: white; font-size: xx-large; position:relative; top:9px;"></i></a>
+                </li>
+              </ul>
+            </div>
+            <!-- Button that links to the Collections heading -->
+            <div class="text"><h1>Shop With Us</h1></div>
+            <div class="desc">
+              <p>
+                Your one-stop destination for mastering languages! Embark on an enriching journey towards fluency with our 
+                comprehensive language learning services. Whether you're a beginner or seeking to enhance your proficiency, 
+                our language learning collections are tailored to your needs.
+              </p>
+            </div>
+            <a href="#collections"><button class="buttonlink" style="vertical-align:middle"><span>Shop All </span></button></a>
+          </div>
+        </div>
+            
+    </section>
+
+    <div class="collecframe">
+      <!-- Quiz section -->
+<div class="sidenav-arrow top-arrow">
+  <i class='bx bxs-chevrons-down bx-fade-down' style="margin-top: 260px; font-size: 40px; color: #Fb046c"></i>
+</div>
+<div id="quizLinkContainer">
+<div id="mySidenav" class="sidenav">
+   <a href="#" id="about" onclick="openPopup(event)" title="Click Me!">Quiz!  &nbsp;&nbsp;<i class='bx bxs-discount' style=" font-size: xx-large"></i></a>
+   <div class="grid-item0" id="quizText" style="display: none;">
+       <div class="popup-container">
+           <div class="quizbg">
+               <div style="color: white; font-size: medium; text-align: center; font-weight: 900"><i class='bx bx-window-close bx-flashing-hover' style="color: white; font-size: xx-large; margin-left: 570px;margin-top: -5px" onclick="closePopup()"></i>
+                   <br>Win amazing discounts if you get your answers right!!!<br>
+                   <button id="button2" onclick="quiz();">Get Started...</button>
+               </div>
+           </div>
+           <div id="hh" style="display: none"> <div class="popup-container1">
+               <div class="container123"><h1 style="color: #Fb046c; ">Are you Ready?</h1>
+                   <i class='bx bx-window-close bx-flashing-hover' style="color: #Fb046c; font-size: xx-large; margin-left: 472px;position: absolute; top:-4px" onclick="closePopup()"></i>
+                 <br>
+               <p style="color: black;">
+                 Ready to embark on a linguistic adventure?
+                     Dive into our language quiz and unleash your multilingual prowess!
+                     Whether you're a beginner or a seasoned polyglot,
+                 our interactive quiz offers a
+                 fun and engaging way to expand your language skills.
+                     Challenge yourself, compete with friends, and explore the beauty of diverse languages.
+               </p><br><br>
+               <h1 style="color: #Fb046c">Terms & Conditions.</h1><br>
+               <p style="color: black;">
+                 1. You have 5 questions to answer.<br>
+                 2. You get 2 points for every right answer.<br>
+                 3. You get -1 point for every incorrect answer.<br>
+                 4. You can claim your points during your purchase.
+               </p>
+               <button onclick= "quiz1(); " style="margin-left: 130px">Start Quiz!</button>
+           </div>
+               <div class="popup-container2" ><div class="container1234" style="display: none"><h1>Summary of your performance</h1>
+               <br>
+               </div></div>
+           </div></div>
+       </div>
+   </div>
+</div></div>
+<i class='bx bx-party bx-tada'></i>
+<div class="sidenav-arrow bottom-arrow" style="z-index: 9999">
+   <i class='bx bxs-chevrons-up bx-fade-up' style="margin-top: 477px; font-size: 40px; color: #Fb046c"></i>
+</div>
+
+      <!-- Cart section -->
+      <div id="Cart" class="Cart">
+        <!-- Close cart button -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <p id="carth1"> Cart </p>
+        <!-- Cart items -->
+        <div class="product1">
+          <img src="english.png" alt="english">
+          <p>English Pack</p>
+          <div class="counter counter 1">
+      <button id="decrementBtn" onclick="decrement1()">-</button>
+      <span id="quantity1">0</span>
+      <button id="incrementBtn" onclick="increment1()">+</button>
+      </div>
+      <div class="price1"><p>£0</p></div>
+        </div>
+        <div class="product2">
+        <img src="english.png" alt="english">
+          <p>English Pack</p>
+          <div class="counter counter2">
+      <button id="decrementBtn" onclick="decrement2()">-</button>
+      <span id="quantity2">0</span>
+      <button id="incrementBtn" onclick="increment2()">+</button>
+    </div>
+    <div class="price2"><p>£0</p></div>
+        </div>
+        <div class="product3">
+        <img src="english.png" alt="english">
+          <p>English Pack</p>
+          <div class="counter counter3">
+      <button id="decrementBtn" onclick="decrement3()">-</button>
+      <span id="quantity3">0</span>
+      <button id="incrementBtn" onclick="increment3()">+</button>
+    </div>
+    <div class="price3"><p>£0</p></div>
+        </div>
+        <div class="product4">
+        <img src="english.png" alt="english">
+          <p>English Pack</p>
+          <div class="counter counter4">
+      <button id="decrementBtn" onclick="decrement4()">-</button>
+      <span id="quantity4">0</span>
+      <button id="incrementBtn" onclick="increment4()">+</button>
+    </div>
+    <div class="price4"><p>£0</p></div>
+        </div>
+        <div class="line"></div>
+        <!-- Total Price -->
+        <div class="totaltxt">Total</div>
+        <div class="total">
+          <span id="totalPound">£</span>
+          <p id="totalprice">0</p>
+        </div>
+
+
+        <!-- The form -->
+
+        <!-- Full Name -->
+        <div class="formcontainer">
+          <div class="row1">
+            <div class="fullname">
+              <label for="fname"><p>Full Name:</p></label>
+            </div>
+            <div class="namefield">
+              <input type="text" id="fname" name="fullname" placeholder="Your name.." style="color: black;">
+              <span id="nameError" class="error"></span>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="row2">
+            <div class="email">
+            <label for="email"><p>Email:</p></label>
+            </div>
+            <div class="emailfield">
+              <input type="text" id="email" name="email" placeholder="Email Address.." style="color: black;">
+              <span id="emailError" class="error"></span>
+            </div>
+          </div>
+
+          <!-- Address -->
+          <div class="row3">
+            <div class="address">
+              <label for="address"><p>Address:</p></label>
+            </div>
+            <div class="addressfield">
+              <input type="text" id="address" name="address" placeholder="Your Address.." style="color: black;">
+              <span id="addressError" class="error"></span>
+
+            <!-- Redeem -->
+            </div>
+            <div class="redeem">
+              <label for="redeem"><p id="redeem">Redeem (Available: 0 Pts):</p></label>
+              <label class="container">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Place order and clear cart buttons -->
+          <button class="clear" onclick="clear()"><svg id="clear" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="M6 7H5v13a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"></path></svg></button>
+          <button class="order" onclick="placeOrder()">Place Order</button>
+        </div>
+      </div>
+      
+      <div id="main">
+        <!-- Main content -->
+          <div class="title"><p id="collections">Our Collections</p></div>
+          <!-- Cart Button -->
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()"><svg class="cartimg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="M21.822 7.431A1 1 0 0 0 21 7H7.333L6.179 4.23A1.994 1.994 0 0 0 4.333 3H2v2h2.333l4.744 11.385A1 1 0 0 0 10 17h8c.417 0 .79-.259.937-.648l3-8a1 1 0 0 0-.115-.921zM17.307 15h-6.64l-2.5-6h11.39l-2.25 6z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="17.5" cy="19.5" r="1.5"></circle></svg></span>
+            <!-- Span that holds the number of items in the cart  -->
+          <span class="circle">0</span>
+
+          <!-- English Collection -->
+        <div class="collec1" >
+          <img src="english.png" alt="english">
+          <b>
+            <h1 id="english" style="font-family: 'Montserrat'; font-weight: bold; color: black; font-size: 27px;">English Learning Collection</h1>
+          </b>
+          <p>
+            Introducing the Ultimate English Language Study Pack – your comprehensive toolkit for mastering English proficiency like never before. 
+            This is a all-in-one collection which includes textbooks, activites, video tutorials and all you will need to master your grammar, 
+            vocabulary and communicaton skills.</p>
+          <p class="pounds">Price: £10</p>
+          <button class="button button1">Add To Cart</button>
+  
+          <div class="line1"></div>
+        </div>
+
+        <!-- Spanish Collection -->
+        <div class="collec2">
+          <img src="spanish.png" alt="spanish">
+          <b>
+            <h1 id="spanish" style="font-family: 'Montserrat'; font-weight: bold; color: black; font-size: 27px;">Spanish Learning Collection</h1>
+          </b>
+          <p>Introducing the Ultimate Spanish Language Study Pack – your comprehensive toolkit for mastering English proficiency like never before. 
+            This is a all-in-one collection which includes textbooks, activites, video tutorials and all you will need to master your grammar, 
+            vocabulary and communicaton skills.</p>
+          <p class="pounds">Price: £10</p>
+          <button class="button button2">Add To Cart</button>
+          <div class="line2"></div>
+        </div>
+
+        <!-- French Collection -->
+        <div class="collec3">
+          <img src="french.png" alt="french">
+          <b>
+            <h1 id="french" style="font-family: 'Montserrat'; font-weight: bold; color: black; font-size: 27px;">French Learning Collection</h1>
+          </b>
+          <p>Introducing the Ultimate French Language Study Pack – your comprehensive toolkit for mastering English proficiency like never before. 
+            This is a all-in-one collection which includes textbooks, activites, video tutorials and all you will need to master your grammar, 
+            vocabulary and communicaton skills.</p>
+          <p class="pounds">Price: £10</p>
+          <button class="button button3">Add To Cart</button>
+          <div class="line3"></div>
+        </div>
+
+        <!-- Korean Collection -->
+        <div class="collec4">
+          <img src="korean.png" alt="korean">
+          <b>
+            <h1 id="korean" style="font-family: 'Montserrat'; font-weight: bold; color: black; font-size: 27px;">Korean Learning Collection</h1>
+          </b>
+          <p>Introducing the Ultimate Korean Language Study Pack – your comprehensive toolkit for mastering English proficiency like never before. 
+            This is a all-in-one collection which includes textbooks, activites, video tutorials and all you will need to master your grammar, 
+            vocabulary and communicaton skills.</p>
+          <p class="pounds">Price: £10</p>
+          <button class="button button4">Add To Cart</button>
+        
+        </div>
+      </div>
+      <!-- Calling shop.js -->
+        <script src="shop.js"></script>
+        <script src="shopquiz.js"></script>
+
+    </div>
+    <section>
+      <!-- Footer section -->
+      <footer>
+        <div class="footer-section">
+          <div class="logo2"><i class='bx bx-registered' style="color: #FB046C; margin-left: 160px; margin-top: 45px"></i></div>
+            <p style="font-size: 13px;">
+                567 Willow Lane
+                Suite <br> 200 Oakville,<br>
+                ON L6H 5R7 Canada
+            </p>
+            <br>
+            <p style="font-size: 13px;">
+                Tel-No. 123456789
+            </p>
+            <br>
+            <a href=" " class="links">
+                learn@Gmail.com
+            </a>
+            <br>
+            <br>
+            <ul class="socialMediaLinks">
+                <li><a href="#" class="fa fa-facebook"></a> </li>
+                <li><a href="#" class="fa fa-twitter"></a>  </li>
+                <li><a href="#" class="fa fa-youtube"></a></li>
+                <li><a href="#" class="fa fa-instagram"></a></li>
+                <li><a href="#" class="fa fa-linkedin"></a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>SUPPORT</h3>
+            <ul>
+                <li><a href="../CONTACTPAGE/Contact.html" class="links"> Contact us</a> </li>
+                <li><a href="../ABOUTUSPAGE/about.html" class="links"> About us</a> </li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>SHOP</h3>
+            <ul>
+              <li><a href="#english" class="links"> English </a> </li>
+              <li><a href="#spanish" class="links"> Spanish </a> </li>
+              <li><a href="#french" class="links"> French </a> </li>
+              <li><a href="#korean" class="links"> Korean </a> </li>
+              <p id="copyright" style="font-size: 13px">
+                Copyright © 2024 Learn.com
+              </p>
+            </ul>
+            <br><br>
+        </div>
+        <div class="footer-section">
+            <h3>PROFILE</h3>
+            <ul>
+                <li><a href="../SIGNINPAGE/SignInForm.html" class="links"> Account </a> </li>
+                <li><a href="../SIGNINPAGE/SignInForm.html" class="links"> Login </a> </li>
+                <li><a href="../SIGNINPAGE/SignInForm.html" class="links"> Sign up </a> </li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>OTHER</h3>
+            <ul>
+                <li><a href="../MAINPAGE/Mainpage.html" class="links"> Quiz </a> </li>
+                <li><a href="../GALLERYPAGE/Gallery.html" class="links"> Gallery </a> </li>
+                <li><a href="../LISTINGPAGE/listingpage.html" class="links"> Reviews and Ratings </a> </li>
+                <li><a href="editors.html" class="links"> Editor's page </a></li>
+            </ul>
+        </div>
+        <br>
+            </footer>
+    </section>
+  </body>
+</html>

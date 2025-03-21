@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learn.com| Quiz</title>
+    <link
+            href="https://fonts.googleapis.com/css?family=Montserrat"
+            rel="stylesheet"
+    />
+    <link href="mainpagecss.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="icon" href="logo-no-background.png" />
+</head>
+<body>
+<div class="sidenav-arrow top-arrow">
+    <i class='bx bxs-chevrons-down bx-fade-down' style="margin-top: 230px; font-size: 40px"></i>
+</div>
+<div id="quizLinkContainer">
+    <div id="mySidenav" class="sidenav">
+        <a href="#" id="about" onclick="openPopup(event)" title="Click Me!">Quiz!  &nbsp;&nbsp;<i class='bx bxs-discount' style=" font-size: xx-large"></i></a>
+        <div class="grid-item0" id="quizText" style="display: none;">
+            <div class="popup-container">
+                <div class="quizbg">
+                    <div style="color: white; font-size: medium; text-align: center; font-weight: 900"><i class='bx bx-window-close bx-flashing-hover' style="color: white; font-size: xx-large; margin-left: 570px;margin-top: -5px" onclick="closePopup()"></i>
+                        <br>Win amazing discounts if you get your answers right!!!<br>
+                        <button id="button2" onclick="quiz();">Get Started...</button>
+                    </div>
+                </div>
+                <div id="hh" style="display: none"> <div class="popup-container1">
+                    <div class="container123"><h1 style="color: #Fb046c; ">Are you Ready?</h1>
+                        <i class='bx bx-window-close bx-flashing-hover' style="color: #Fb046c; font-size: xx-large; margin-left: 472px;position: absolute; top:-4px" onclick="closePopup()"></i>
+                        <br>
+                        Ready to embark on a linguistic adventure?
+                        Dive into our language quiz and unleash your multilingual prowess!
+                        Whether you're a beginner or a seasoned polyglot,
+                        our interactive quiz offers a
+                        fun and engaging way to expand your language skills.
+                        Challenge yourself, compete with friends, and explore the beauty of diverse languages.<br><br>
+                        <h1 style="color: #Fb046c">Terms & Conditions.</h1><br>
+                        1. You have 5 questions to answer.<br>
+                        2. You get 2 points for every right answer.<br>
+                        3. You get -1 point for every incorrect answer.<br>
+                        4. You can claim your points during your purchase.
+                        <button onclick= "quiz1(); " style="margin-left: 130px">Start Quiz!</button>
+                    </div>
+                    <div class="popup-container2" ><div class="container1234" style="display: none"><h1>Summary of your performance</h1>
+                        <br>
+                    </div></div>
+                </div></div>
+            </div>
+        </div>
+    </div></div>
+<i class='bx bx-party bx-tada'></i>
+<div class="sidenav-arrow bottom-arrow" style="z-index: 9999">
+    <i class='bx bxs-chevrons-up bx-fade-up' style="margin-top: 430px; font-size: 40px"></i>
+</div>
+<script src="quiz.js"></script>
+</body>
+</html>
