@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<reviews>
+
+    <review>
+        <course>English Language</course>
+        <user>John Doe</user>
+        <rating>4.0</rating>
+        <content>
+            <![CDATA[
+                I recently completed the French Language Course at Learn.com, and it was an exceptional experience<br/>
+                from start to finish. As someone with a keen interest in French culture and language,<br/>
+                I was excited to embark on this learning journey, and I'm thrilled with the results.<br/>
+                The course curriculum was comprehensive, covering all aspects of French language learning,<br/>
+                including grammar, vocabulary, pronunciation, and conversational skills. Each lesson was thoughtfully<br/>
+                designed and engaging, making it easy to stay motivated and eager to learn. The instructors at Learn.com<br/>
+                are truly outstanding.
+            ]]>
+        </content>
+        <date>03/03/2024</date>
+
+    </review>
+
+
+
+    <review>
+        <course>Korean Language</course>
+        <user>Emily Park</user>
+        <rating>3.0</rating>
+
+        <content>
+            <![CDATA[
+                I recently completed the Korean Language Course offered by Learn.com and I must say,<br/>
+                it was an exceptional experience. As someone with a keen interest in Korean culture and language,<br/>
+                I found the course to be comprehensive and engaging from start to finish.<br/>
+                The course curriculum covered all aspects of language learning, including<br/>
+                grammar, vocabulary, reading, writing, listening, and speaking. Each lesson was well-structured<br/>
+                and accompanied by interactive learning materials that made the learning process enjoyable and effective.<br/>
+            ]]>
+        </content>
+        <date>07/02/2024</date>
+    </review>
+
+    <review>
+        <course>Spanish Language</course>
+        <user>Hector Brando</user>
+        <rating>5.0</rating>
+
+        <content>
+            <![CDATA[
+                    I recently completed the Spanish Language Course at Learn.com, and I'm thrilled with the experience.<br/>
+                    Learning Spanish has always been a dream of mine, and this course made it a reality.<br>
+                    The curriculum was well-organized and covered all aspects of language learning,from grammar <br/>
+                    to vocabulary and conversation.Each lesson was engaging and interactive, keeping me motivated <br/>
+                    and eager to learn more.The instructors were knowledgeable and passionate about teaching Spanish.<br/>
+                    They provided clear explanations and encouraged us to practice speaking from day one.<br/>
+            ]]>
+        </content>
+        <date>18/01/2024</date>
+    </review>
+
+    <review>
+        <course>French Language</course>
+        <user>Sophia Johnson</user>
+        <rating>4.0</rating>
+
+        <content>
+            <![CDATA[
+                    I recently completed the French Language Course at Learn.com, and it was an exceptional experience <br/>
+                    from start to finish.As someone with a keen interest in French culture and language,<br/>
+                    I was excited to embark on this learning journey,and I'm thrilled with the results. <br/>
+                    The course curriculum was comprehensive, covering all aspects of French language learning,<br/>
+                    including grammar, vocabulary, pronunciation, and conversational skills.Each lesson was thoughtfully<br/>
+                    designed and engaging, making it easy to stay motivated and eager to learn.The instructors at Learn.com<br/>
+                    are truly outstanding.<br/>
+            ]]>
+        </content>
+        <date>23/08/2024</date>
+    </review>
+
+
+
+
+
+</reviews>
